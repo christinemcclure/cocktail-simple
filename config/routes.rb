@@ -1,4 +1,6 @@
 CocktailS::Application.routes.draw do
+  resources :cocktails
+
   resources :models
 
   # The priority is based upon order of creation:
