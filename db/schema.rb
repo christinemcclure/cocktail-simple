@@ -20,12 +20,6 @@ ActiveRecord::Schema.define(:version => 20120925003124) do
     t.datetime "updated_at", :null => false
   end
 
-  create_table "ingredients", :force => true do |t|
-    t.string   "ingredient"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-  end
-
   create_table "models", :force => true do |t|
     t.string   "name"
     t.text     "notes"
