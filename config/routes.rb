@@ -1,4 +1,6 @@
 CocktailS::Application.routes.draw do
+  resources :ingredients
+
   resources :cocktails
 
   resources :models
